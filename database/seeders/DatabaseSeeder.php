@@ -17,7 +17,7 @@ class DatabaseSeeder extends Seeder
         User::factory(10)->create();
          User::factory(10)->unverified()->create();
         // Task::factory(20)->create();
-        \App\Models\Task::factory(20)->create();
+        \App\Models\Task::factory(50)->create();
 
         // User::factory()->create([
         //     'name' => 'Test User',
